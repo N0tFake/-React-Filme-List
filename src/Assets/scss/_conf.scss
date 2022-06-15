@@ -1,0 +1,20 @@
+/* |-----------------------| APP COLOR SCHEMA |-----------------------| */
+$BACKGROUND: #1c1d1d;
+
+
+
+/* |-----------------------| SIZES |-----------------------| */
+$xl: 87.5em; // 4k and desktop 
+$lg: 60em;   // 1080 and laptops
+$med: 40em;  // tablets
+$sm: 28em;   // mobile and low tables
+$xs: 20em;   // mobile only
+
+ 
+/* |-----------------------| MIXINS |-----------------------| */
+
+@mixin responsive($query) {
+    @media (max-width: $query){
+        @content;
+    }
+}
