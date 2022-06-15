@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import './styles.scss'
 import { useAuth } from '../../Context/auth';
+import { useRef } from 'react';
 
 export function LoginPage() {
     const context = useAuth()
