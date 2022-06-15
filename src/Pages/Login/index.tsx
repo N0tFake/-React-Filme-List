@@ -1,4 +1,3 @@
-import { useContext, useRef} from 'react';
 import { useNavigate } from 'react-router-dom';
 import './styles.scss'
 import { useAuth } from '../../Context/auth';

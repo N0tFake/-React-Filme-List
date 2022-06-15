@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { CardFilm } from "../../Components/Card";
 import { SearchBar } from "../../Components/Search";
 import { useAuth } from "../../Context/auth";
